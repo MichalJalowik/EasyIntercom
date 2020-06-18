@@ -6,6 +6,8 @@ import java.util.Set;
 public class Intercom {
 
 	private Set<Inhabitant> inhabitants = new HashSet<Inhabitant>();
+	
+	public Intercom() {}
 
 	public Intercom(Set<Inhabitant> inhabitants) {
 		this.setInhabitants(inhabitants);
