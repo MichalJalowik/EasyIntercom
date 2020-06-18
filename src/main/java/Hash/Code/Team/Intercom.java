@@ -26,7 +26,7 @@ public class Intercom {
 
 	boolean open(int flatNumber, int pinCode) {
 		for (Inhabitant inhabitant : this.getInhabitants()) {
-			if ((inhabitant.getFlatNumber() == flatNumber) && (inhabitant.getPinCode == pinCode)) {
+			if ((inhabitant.getFlatNumber() == flatNumber) && (inhabitant.getPinCode() == pinCode)) {
 				return true;
 			}
 		}
